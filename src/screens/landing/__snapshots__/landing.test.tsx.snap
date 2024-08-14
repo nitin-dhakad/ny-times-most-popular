@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering landing page show landing page 1`] = `
+<div>
+  <div
+    class=" justify-center items-center flex-col"
+  >
+    <div
+      class="flex flex-row items-center justify-between  p-4"
+    >
+      <h1
+        class="text-4xl font-semibold font-serif italic text-center flex-1 ml-52  text-slate-800"
+      >
+        The New York Times
+      </h1>
+      <div
+        class="flex justify-end mr-1"
+      >
+        <div
+          class="text-base font-bold text-gray-600 pr-1"
+        >
+          Select Day(s):
+          <select
+            class="text-base font-bold text-gray-600 ml-4 px-3 text-center border-solid border-2 border-gray-800 rounded"
+          >
+            <option
+              class="text-base text-gray-500 text-left"
+              value="1"
+            >
+              1 day
+            </option>
+            <option
+              class="text-base text-gray-500 text-left"
+              value="7"
+            >
+              7 days
+            </option>
+            <option
+              class="text-base text-gray-500 text-left"
+              value="30"
+            >
+              30 days
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fixed inset-0 z-50 flex justify-center items-center "
+    >
+      <div
+        aria-busy="true"
+        aria-label="triangle-loading"
+        class="sc-braxZu juNRvt undefined"
+        data-testid="triangle-loading"
+        role="progressbar"
+      >
+        <svg
+          class="sc-elDIKY jSkGDu"
+          data-testid="triangle-svg"
+          height="80"
+          id="triangle"
+          viewBox="-3 -4 39 39"
+          width="80"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polygon
+            class="sc-gJhJTp fgpNzY"
+            fill="transparent"
+            points="16,0 32,32 0,32"
+            stroke="#4fa94d"
+            stroke-width="1"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

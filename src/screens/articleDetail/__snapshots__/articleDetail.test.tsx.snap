@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering article Detail page show article detail page 1`] = `
+<div>
+  <div>
+    <button
+      class="absolute top-4 left-6 flex items-center px-3 py-2 text-sm font-semibold text-gray-700 bg-white border border-gray-300 rounded-lg shadow hover:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-200"
+    >
+      <svg
+        class="w-4 h-4 mr-1"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15 12H3m0 0l7 7m-7-7l7-7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Back
+    </button>
+    <h1
+      class="text-4xl font-semibold font-serif italic text-center p-4 text-slate-800 outline"
+    >
+      The New York Times
+    </h1>
+    <div
+      class="bg-white  rounded-lg overflow-hidden mx-auto md:flex-row md:flex px-5 pt-2"
+    >
+      <img
+        class="w-full h-full object-cover md:w-6/12 md:max-h-80"
+        src="/placeHolder.png"
+      />
+      <div
+        class="p-4"
+      >
+        <h2
+          class="text-xl font-semibold mb-2"
+        />
+        <p
+          class="text-gray-600 text-sm mb-2"
+        />
+        <p
+          class="text-gray-700 mb-4"
+        />
+        <div
+          class="flex justify-between text-gray-500 text-xs"
+        >
+          <span>
+            NaN Invalid Date
+          </span>
+          <span />
+        </div>
+      </div>
+    </div>
+    <div
+      class="outline-double mt-2"
+    />
+  </div>
+</div>
+`;
